@@ -15,7 +15,7 @@ pattern { GOV-[nsubj|csubj]-> DEP; GOV[upos="VERB"]; GOV-[iobj|obj|obl:arg|obl:m
 
 pattern { GOV [upos="VERB"]; GOV-[nsubj]-> DEP; GOV <<  DEP
 
-2) With the help of the Spacy module, extract the triplets (subject, verb, object) of the following sentences and comment on any errors or missing elements.
+2) With the help of the Spacy module, extract the triplets (subject, verb, object) of the following sentences and comment on any errors or missing elements. (in the script)
 
     "Children don't like asparagus very much."
     "The French are asking for less taxes."
